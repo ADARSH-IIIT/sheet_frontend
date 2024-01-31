@@ -1,0 +1,121 @@
+.signup{
+
+
+    height: 100%;
+    width: 100%;
+
+    /* background-color: pink; */
+
+
+
+}
+
+
+.signup1{
+    flex: 0.65;
+    background-color: #F8F9FB;
+    /* background-color: rgb(249, 245, 245); */
+    background-color: #F8F9FB;
+
+    height: 100%;
+
+}
+
+
+.signup2{
+
+    flex: 0.35;
+    background-color: #002D62 ;
+    background: radial-gradient( circle, #033369, #022547);
+
+
+    height: 100%;
+
+    gap: 3%;
+
+
+}
+
+
+.signup21{
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+.signup22>div{
+    font-family: roboto;
+    color: white;
+    font-size: 12px;
+    /* font-weight: 200; */
+}
+
+.signup23{
+    /* background-color:red; */
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+.signup23>button{
+    box-sizing: border-box;
+    
+    background-color: #002D62 ;
+    padding: 3px 40px;
+    border-radius: 15px;
+    border: 2px solid white;
+    color: white;
+    font-family: poppins;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all ease-in-out 0.1s;
+}
+
+.btn:active{
+
+    background-color: black;
+    /* padding: 5px 45px;
+    font-size: 12px; */
+
+}
+
+
+@media screen and (max-width : 750px) {
+
+    .signup21{
+        font-size: 25px;
+    }
+
+    .signup22>div{
+        font-size: 11px;
+    }
+    
+}
+
+@media screen and (max-width : 600px) {
+
+    .signup21{
+        font-size: 22px;
+    }
+    
+
+    .signup22>div{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width : 550px) {
+
+    .signup2{
+        display: none;
+       
+    }
+
+    .signup1{
+        flex: 0.85;
+        background-color: blue;
+    }
+    
+}
