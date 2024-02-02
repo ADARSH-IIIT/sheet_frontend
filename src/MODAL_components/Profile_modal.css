@@ -1,0 +1,23 @@
+.pf-modal{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: blur; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    /* opacity: ; */
+    
+  }
+  
+  
+  
+  .pf-modal1{
+  
+    background-color: yellow;
+    height: 50vh;
+    width: 50vw;
+    outline: none;
+    /* filter: blur(0px); */
+  
+  }

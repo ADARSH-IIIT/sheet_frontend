@@ -1,0 +1,124 @@
+.os-modal{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: blur; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    /* opacity: ; */
+    
+  }
+  
+  
+  
+  .os-modal1{
+  
+    background: radial-gradient( circle, #033369, #02172c);
+    height: 50vh;
+    width: 50vw;
+    outline: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 2%; */
+  
+  }
+
+
+
+  .os-modal11{
+    flex: 0.15;
+    /* background-color: red; */
+    width: 80%;
+    color: white;
+    font-family: poppins;
+    font-weight: 800;
+    font-size: 3rem;
+
+}
+
+
+
+.os-modal12{
+    flex: 0.15;
+    /* background-color: white; */
+    width: 90%;
+}
+
+.os-modal12>input{
+
+    width: 90%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border-radius: 10px;
+    color: navy;
+    font-size: 1.6rem;
+    font-family: poppins;
+    text-align: center;
+
+
+}
+
+
+.os-modal13{
+    flex: 0.15;
+    /* background-color: white; */
+    width: 80%;
+    gap : 10%
+}
+
+
+
+.os-modal131{
+    background-color: green;
+    padding: 1% 5%;
+    color: white;
+    font-size: 2rem;
+    font-family: poppins;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.os-modal132{
+    background-color: red;
+    padding: 1% 5%;
+    color: white;
+    font-size: 2rem;
+    font-family: poppins;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+
+
+}
+
+
+
+
+
+  @media screen and (max-width : 600px) {
+    
+     
+                    .os-modal1{
+                        width: 70vw;
+                    }
+
+
+  }
+
+  
+  @media screen and (max-width : 400px) {
+    
+     
+    .os-modal1{
+        width: 80vw;
+    }
+
+
+}
